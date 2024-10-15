@@ -39,14 +39,14 @@ nav {
 .container {
   align-items: center;
   display: flex;
-  height: 67px;
+  height: 4.1875rem;
 }
 
 .container .row {
   align-items: center;
 }
 .logo_main img {
-  width: 116px;
+  width: 7.25rem;
   margin-right: 40px;
 }
 .delivery_button {
@@ -120,6 +120,7 @@ nav{
     width: 18.8rem;
     height: 28.6875rem;
     position: absolute;
+    top: 5rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .left_side_nav_items img{
@@ -208,7 +209,8 @@ nav{
   }
 .banner,
 .category{
-    left: 7.5rem;
+    left: 20rem;
+    top: 14.375rem;
 }
 
 /* button start */
@@ -298,8 +300,9 @@ body {
   width: 17.6875rem;
   height: 3.75rem;
   display: flex;
-  margin-left: 2.8125rem;
-  margin-top: 2.5rem;
+  left: 4rem;
+  position: relative;
+  top: 31.25rem;
   border-radius: 0.3125rem;
 }
 .trust_img img{
@@ -318,5 +321,8 @@ body {
 .trust_text p{
   font-size: 0.8125rem;
   font-weight: 400;
+}
+.trust{
+  margin-left: 3.125rem;
 }
 /* *main part end*/
