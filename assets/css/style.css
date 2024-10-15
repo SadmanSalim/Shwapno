@@ -97,12 +97,12 @@ nav{
 }
 .sub_child a{
     padding-left: 1.25rem;
-    height: 30px;
+    height: 1.875rem;
 }
 .sub_child li a:hover{
     color: #fff;
     background: var(--hover-color);
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 .sub_parent:hover .sub_child{
     visibility: visible;
