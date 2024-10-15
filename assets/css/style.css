@@ -223,12 +223,13 @@ body {
 /* trust */
 
 .trust_1{
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.75rem;
   width: 17.6875rem;
   height: 3.75rem;
   display: flex;
   margin-left: 2.8125rem;
-  margin-top: 1.875rem;
+  margin-top: 2.5rem;
+  border-radius: 0.3125rem;
 }
 .trust_img img{
   width: 1.875rem;
