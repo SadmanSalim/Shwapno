@@ -6,9 +6,16 @@
   outline: 0;
   font-family: var(--font-family);
 }
+<<<<<<< HEAD
 :root {
   --primary-color: #df0000;
   --font-family: Rubik, sans-serif;
+=======
+:root{
+    --primary-color: #df0000;
+    --hover-color: #E85500;
+    --font-family: Rubik, sans-serif;
+>>>>>>> 48417980be010932dfc086ec12db9084f91f0652
 }
 
 ul,
@@ -30,6 +37,7 @@ a {
 }
 
 /* ===========Css Common End================ */
+<<<<<<< HEAD
 
 /* ===========Never Design is Start========= */
 nav {
@@ -108,3 +116,223 @@ nav {
   font-weight: 300;
 }
 /* ===========Never Design is end========= */
+=======
+nav{
+    background: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+/* *main part */
+
+/* !nav_main part */
+.left_side_nav_items{
+    width: 18.8rem;
+    height: 28.6875rem;
+    position: absolute;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.left_side_nav_items img{
+    width: 1.875rem;
+}
+.left_side_nav_items ul{
+    margin-left: 1.5625rem;
+    margin-top: 0.6875rem;
+}
+.left_side_nav_items ul li{
+    margin: 0.34375rem 0;
+}
+.left_side_nav_items ul li a img{
+    margin-right: 1rem;
+}
+.left_side_nav_items li a{
+    align-items: center;
+    display: flex;
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.left_side_nav_items li a:hover{
+    color: var(--hover-color);
+}
+.fa-chevron-right{
+    font-size: 1rem;
+    position: absolute;
+    right: 0.5rem;
+}
+
+
+.sub_parent{
+    position: relative;
+}
+.sub_child{
+    position: absolute;
+    background: #fff;
+    width: 17rem;
+    height: 19rem;
+    left: 15.75rem;
+    top: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    visibility: hidden;
+    z-index: 100;
+}
+.sub_child a{
+    padding-left: 1.25rem;
+    height: 1.875rem;
+}
+.sub_child li a:hover{
+    color: #fff;
+    background: var(--hover-color);
+    border-radius: 0.3125rem;
+}
+.sub_parent:hover .sub_child{
+    visibility: visible;
+}
+/* !nav_main part end*/
+
+/* *other side */
+.swiper {
+    width: 66.375rem;
+    height: 15.5rem;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 1.125rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+.banner,
+.category{
+    left: 7.5rem;
+}
+
+/* button start */
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  content: '';
+}
+.swiper-button-next,
+.swiper-button-prev{
+  background-color: #FFD814;
+  border: 0.0625rem solid var(--border-color);
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 0.3125rem;
+  color: #000;
+  font-size: 0.9375rem;
+}
+
+.swiper-button-prev{
+  left: initial;
+  right: 2.5rem;
+}
+
+.swiper-button-next{
+  right: 0.5rem;
+}
+.swiper-button-prev{
+    left: 0.5rem;
+}
+/* button end */
+
+/* categories */
+#product_categories .swiper {
+  width: 66.375rem;
+  height: 15.5rem;
+}
+
+#product_categories .swiper-slide {
+  text-align: center;
+  font-size: 1.125rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#product_categories .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.p_image{
+  width: 12.0625rem;
+  position: relative;
+}
+.p_image a img{
+  border-radius: 0.625rem;
+}
+.txt{
+  background: #FFD814;
+  width: 10rem;
+  height: 2.4rem;
+  top: 11rem;
+  left: 1.125rem;
+  position: absolute;
+  border-radius: 1.25rem;
+}
+.txt a{
+  color: #554302;
+  display: flex;
+  padding-top: 0.4375rem;
+  justify-content: center;
+}
+
+
+/* trust */
+
+.trust_1{
+  box-shadow: rgba(0, 0, 0, 0.1) 0rem 0.25rem 0.75rem;
+  width: 17.6875rem;
+  height: 3.75rem;
+  display: flex;
+  margin-left: 2.8125rem;
+  margin-top: 2.5rem;
+  border-radius: 0.3125rem;
+}
+.trust_img img{
+  width: 1.875rem;
+  margin-left: 2.625rem;
+  margin-top: 0.75rem;
+}
+.trust_text{
+  margin-top: 0.75rem;
+  margin-left: 0.625rem;
+}
+.trust_text h6{
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+.trust_text p{
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+/* *main part end*/
+>>>>>>> 48417980be010932dfc086ec12db9084f91f0652
