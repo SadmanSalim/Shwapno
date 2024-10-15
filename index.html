@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwapno</title>
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <!-- GOOGLE FONT  -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+
+    <!-- FONT AWOESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK STYLE SHEET -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
         <section id="nav_bar">
@@ -15,10 +26,35 @@
                 <div class="container">
                     <div class="row">
                         <div class="logo_main">
-                            <a href="index.html"><img src="./assets/img/shwapno_logo.png" alt=""></a>
+                            <a href="index.html">
+                                <img src="./assets/img/shwapno_logo.png" alt="">
+                            </a>
                         </div>
                         <div class="delivery_button">
-                            <a href="#"><span><img src="./assets/img/delivery.svg" alt=""></span> Select Your Delivery Location</a>
+                            <a href="#">
+                                <img src="./assets/img/delivery.svg" alt="">
+                                Select Your Delivery Location
+                            </a>
+                        </div>
+                        <div class="search-box">
+                            <input type="text" id="search-btn" placeholder="Search your products">
+                            <label for="search-btn">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </label>
+                        </div>
+                        <div class="apps-d-btn">
+                            <a href="#">
+                                <img src="./assets/img/app-download.png" alt="">
+                            </a>
+                        </div>
+                        <div class="Language-btn">
+                            <a href="#">English</a>
+                        </div>
+                        <div class="sign-in-btn">
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                                Sign In/Sign Up
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -26,4 +62,5 @@
         </section>
     </header>
 </body>
+
 </html>
