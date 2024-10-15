@@ -6,16 +6,10 @@
   outline: 0;
   font-family: var(--font-family);
 }
-<<<<<<< HEAD
-:root {
-  --primary-color: #df0000;
-  --font-family: Rubik, sans-serif;
-=======
 :root{
     --primary-color: #df0000;
     --hover-color: #E85500;
     --font-family: Rubik, sans-serif;
->>>>>>> 48417980be010932dfc086ec12db9084f91f0652
 }
 
 ul,
@@ -37,7 +31,6 @@ a {
 }
 
 /* ===========Css Common End================ */
-<<<<<<< HEAD
 
 /* ===========Never Design is Start========= */
 nav {
@@ -116,7 +109,6 @@ nav {
   font-weight: 300;
 }
 /* ===========Never Design is end========= */
-=======
 nav{
     background: var(--primary-color);
 }
@@ -335,4 +327,3 @@ body {
   font-weight: 400;
 }
 /* *main part end*/
->>>>>>> 48417980be010932dfc086ec12db9084f91f0652
