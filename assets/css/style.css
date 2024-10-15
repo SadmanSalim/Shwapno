@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    font-family: var(--font-family);
 }
 :root{
     --primary-color: #df0000;
+    --font-family: Rubik, sans-serif;
 }
 
 ul,
