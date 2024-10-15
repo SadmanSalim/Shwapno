@@ -1,0 +1,33 @@
+/* ===========Css Common================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+:root{
+    --primary-color: #df0000;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90rem;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+/* ===========Css Common End================ */
+nav{
+    background: var(--primary-color);
+}
