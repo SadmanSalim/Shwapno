@@ -33,86 +33,108 @@ a {
 /* ===========Css Common End================ */
 
 /* ===========Never Design is Start========= */
-nav {
-  background: var(--primary-color);
-}
-.container {
-  align-items: center;
-  display: flex;
-  height: 4.1875rem;
-}
 
-.container .row {
-  align-items: center;
-}
-.logo_main img {
-  width: 7.25rem;
-  margin-right: 40px;
-}
-.delivery_button {
-  border: 1px solid #fb6565;
-  padding: 10px;
-  margin-right: 40px;
-  display: inline-block;
-  border-radius: 5px;
-}
-.delivery_button a {
-  font-size: 0.7rem;
-  color: #fff;
-  margin-left: 5px;
-  font-weight: 300;
-}
-.search-box {
-  width: 676px;
-  height: 36px;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-  margin-right: 40px;
-}
-.search-box input {
-  width: 625px;
-  height: 100%;
-  padding: 10px;
-  border: 0;
-  border-radius: 5px;
-  color: #ccc;
-}
-.search-box label {
-  padding: 7.5px 16px;
-  background-color: #ffd814;
-  border-radius: 0 5px 5px 0;
-}
-.search-box label i {
-  font-size: 20px;
-}
-.apps-d-btn img {
-  width: 170px;
-  margin-right: 35px;
-}
-.Language-btn a {
-  padding: 10px;
-  border: 1px solid #fb6565;
-  font-size: 14px;
-  border-radius: 5px;
-  margin-right: 15px;
-  color: #fff;
-  font-weight: 300;
-}
-.sign-in-btn a {
-  color: #fff;
-  font-size: 12px;
-  border: 1px solid #fb6565;
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: 300;
-}
 /* ===========Never Design is end========= */
 nav{
     background: var(--primary-color);
+    width: 100%;
+    height: 65px;
+}
+.logo_main{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.delivery_button_box{
+  background: transparent;
+  border: 0.3px solid #fff;
+  border-width: 0.3px;
+  width: 230px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.language_box{
+  background: transparent;
+  border: 0.3px solid #fff;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.signup_button{
+  background: transparent;
+  border: 0.3px solid #fff;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.signup_button a{
+  color: #fff;
+  margin-left: 2px;
+}
+.items i{
+  color: #fff;
+  font-size: 20px;
+}
+.signup_button .items{
+  padding-top: 6px;
+}
+.signup_button:hover,
+.language_box:hover{
+  background: #fb6565;
+}
+.language_box p{
+  color: #fff;
+  padding-top: 6px;
+}
+.delivery_image img{
+  width: 25px;
+  margin-left: 5px;
+}
+.delivery_text{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 10px;
+  cursor: pointer; 
 }
 
+.search_box input{
+  width: 460px;
+  height: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  margin-left: 15px;
+  margin-top: 14px;
+  padding-left: 15px;
+}
+.search_icon{
+  background: #ffd814;
+  height: 35px;
+  width: 50px;
+  margin-top: 14px;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+}
+.search_icon span{
+  display: inline-block;
+  padding-top: 8px;
+}
+.app_download img{
+  width: 180px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
 /* *main part */
 
 /* !nav_main part */
@@ -209,8 +231,8 @@ nav{
   }
 .banner,
 .category{
-    left: 20rem;
-    top: 14.375rem;
+  left: 70px;
+  top: 10px;
 }
 
 /* button start */
@@ -302,7 +324,7 @@ body {
   display: flex;
   left: 4rem;
   position: relative;
-  top: 31.25rem;
+  top: 5rem;
   border-radius: 0.3125rem;
 }
 .trust_img img{
